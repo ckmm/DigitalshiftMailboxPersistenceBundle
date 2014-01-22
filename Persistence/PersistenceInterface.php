@@ -2,7 +2,7 @@
 
 namespace Digitalshift\MailboxPersistenceBundle\Persistence;
 
-use Digitalshift\MailboxClientBundle\Mailbox\Message;
+use Digitalshift\MailboxAbstractionBundle\Entity\Message;
 use Digitalshift\MailboxPersistenceBundle\Exception\PersistException;
 use Digitalshift\MailboxPersistenceBundle\Exception\MessageNotFoundException;
 
