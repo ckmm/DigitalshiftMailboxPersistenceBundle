@@ -1,0 +1,25 @@
+{
+    "name": "digitalshift/mailbox-persistence-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 Bundle to persist instance from mailbox-persitence-bundle.",
+    "keywords": ["mail", "mime", "persistence", "mailbox"],
+    "homepage": "https://github.com/soeren-helbig/DigitalshiftMailboxPersistenceBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soeren Helbig",
+            "email": "soeren.helbig@digitalshift.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "digitalshift/mailbox-abstraction-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Digitalshift\\MailboxPersistenceBundle": ""
+        }
+    },
+    "target-dir": "Digitalshift/MailboxPersistenceBundle"
+}
