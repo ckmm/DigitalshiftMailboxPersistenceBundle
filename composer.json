@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "digitalshift/mailbox-abstraction-bundle": "dev-master"
+        "digitalshift/mailbox-abstraction-bundle": "dev-master",
+        "symfony/http-foundation": "2.4.*"
     },
     "autoload": {
         "psr-0": {
