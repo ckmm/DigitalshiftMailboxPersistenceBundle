@@ -17,6 +17,11 @@
         "digitalshift/mailbox-abstraction-bundle": "dev-master",
         "symfony/http-foundation": "2.4.*"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
     "autoload": {
         "psr-0": {
             "Digitalshift\\MailboxPersistenceBundle": ""
