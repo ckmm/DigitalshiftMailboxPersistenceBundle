@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalshift\MailboxPersistenceBundle\Persistence;
+namespace Digitalshift\MailboxPersistenceBundle\Persistence\Message;
 
 use Digitalshift\MailboxAbstractionBundle\Entity\Message;
 use Digitalshift\MailboxPersistenceBundle\Exception\PersistException;

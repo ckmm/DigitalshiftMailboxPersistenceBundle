@@ -1,7 +1,7 @@
 parameters:
-#    digitalshift_mailbox_persistence.example.class: Digitalshift\MailboxPersistenceBundle\Example
+    digitalshift_mailbox_persistence.attachment_persister.class: Digitalshift\MailboxPersistenceBundle\Persistence\Attachment\FilesystemAttachmentPersister
 
 services:
-#    digitalshift_mailbox_persistence.example:
-#        class: %digitalshift_mailbox_persistence.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    digitalshift_mailbox_persistence.attachment_persister:
+        class: %digitalshift_mailbox_persistence.attachment_persister.class%
+        arguments: ["%kernel.root_dir%/../web", "tmp"]
