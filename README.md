@@ -1,4 +1,4 @@
 DigitalshiftMailboxPersistenceBundle
 ====================================
 
-persist Messages and Attachments (see DigitalshiftMailboxClientBundle)
+persist Messages and Attachments
